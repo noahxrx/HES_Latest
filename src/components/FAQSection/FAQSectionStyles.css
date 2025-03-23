@@ -1,0 +1,72 @@
+.faq-section {
+  padding: 120px 20px 60px;
+  text-align: center;
+  background-color: rgba(42, 149, 191, 0.4);
+  position: relative;
+}
+
+.faq-section h2 {
+  font-size: 55px;
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
+
+/* Wider, taller accordion */
+.faq-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  width: 100%;
+  background-color: #f4f4f4;
+  border: none;
+  padding: 15px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 22px;
+  color: #333;
+  position: relative;  /* For the arrow */
+}
+
+/* Add arrow using a pseudo-element */
+.faq-question::after {
+  content: "▼";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+}
+
+/* When open, change arrow direction */
+.faq-question.open::after {
+  content: "▲";
+}
+
+.faq-answer {
+  padding: 15px;
+  border-left: 3px solid #333;
+  background-color: #fafafa;
+  font-size: 22px;
+}
+
+.faq-link {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  
+}
+
+.faq-link a {
+  color: blue;
+  text-decoration: underline;
+  font-size: 18px;
+
+}

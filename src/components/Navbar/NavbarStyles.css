@@ -1,0 +1,38 @@
+.navbar {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+ 
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 1px 20px;
+  justify-content: flex-end; /* Pushes all items to the right */
+}
+
+.navbar nav ul li {
+  margin-right: 70px;
+}
+
+.navbar nav ul li a {
+  color: rgb(42, 149, 191); /* Set text color to blue */
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/* Keep the logo on the left */
+.navbar nav ul li:first-child {
+  margin-right: auto;
+}
+
+/* Optional: Size the logo image */
+.navbar nav ul li img {
+  height: 55px;  /* Adjust the height as needed */
+  width: auto;
+}
