@@ -7,6 +7,7 @@ import MissionSection from './components/MissionSection/MissionSection';
 import TeamSection from './components/TeamSection/TeamSection';
 import FAQSection from './components/FAQSection/FAQSection';
 import SearchEnginePage from './components/SearchEnginePage/SearchEnginePage';
+import HowItWorks from './components/HowItWorks/HowItWorks'; // 追加
 
 const HomePage = () => (
   <div>
@@ -25,9 +26,12 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/healthcare-search" element={<SearchEnginePage />} />
+        <Route path="/how-it-works" element={<HowItWorks />} />
       </Routes>
     </Router>
   );
 };
+
+
 
 export default App;

@@ -7,6 +7,7 @@ import educationImg from '../../assets/educational-services.png';
 const ServicesSection = () => {
   return (
     <section id="services" className="services-section">
+      
       <h2>How can I assist you?</h2>
       <div className="services-container">
         <div className="service-card">
@@ -26,7 +27,7 @@ const ServicesSection = () => {
         <div className="service-card">
           <img src={educationImg} alt="Educational Services" />
           <h3>Learn About How All Works</h3>
-          <a href="/coming-soon" className="btn">
+          <a href="/how-it-works" className="btn">
             Explore
           </a>
         </div>
