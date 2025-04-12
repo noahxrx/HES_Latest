@@ -58,7 +58,7 @@ const TeamSection = () => {
           <img src={member6} alt="Team Member 6" />
           <h3>Saki Takizawa</h3>
           <p className="title">UI/UX Specialist</p>
-          <p className="bio">Majoring in Computer Science</p>
+          <p className="bio">Majoring in Computer Science and minoring in Music</p>
         </div>
 
       </div>

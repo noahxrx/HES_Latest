@@ -10,6 +10,12 @@
 .side-menu-bar h1{
     font-size: 22px;
     font-weight: 300;
+    padding-top: 40px;
+    color: #001F3F;
+    padding-left: 20px;
+    text-align: left;
+    font-weight: 500;
+    background-color: #F2C14E;
 }
 
 .side-menu-bar ul{
@@ -18,24 +24,25 @@
     justify-content: center;
 }
 
-.side-menu-item{
-    padding-bottom: 30px;
-}
-
 .side-menu-item a.btn {
     color: white;
     font-size: 16px;
+    font-weight: 400;
     display: block;
-    width: 100%; 
-    text-align: center; 
+    width: 180px; 
+    text-align: left; 
     transition: background-color 0.3s, color 0.3s;
+    padding: 20px 0px;
+    padding-left: 20px;
+    /* margin: 10px 0px; */
 }
+
 
 .side-menu-item a.btn:hover {
     color: black;
-    background-color: #636161;
+    font-weight: 400;
+    background-color: #F2C14E;
 }
-
 
 .subcategory-section {
     box-sizing: border-box;
@@ -52,7 +59,25 @@
     font-size: 50px;
     margin-top: 50px;
     padding-bottom: 10px;
-  
+  }
+
+  .page-abstract{
+    padding: 0px 80px 40px;
+  }
+
+  .page-abstract p{
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .page-abstract .btn{
+    font-size: 22px;
+    font-weight: 600;
+    color: #2A95BF;
+  }
+
+  .page-abstract .btn:hover{
+    color: #001F3F;
   }
     
     .category-container {
@@ -101,4 +126,8 @@
     .service-card .btn:hover{
         background-color: #2A95BF;
         color: black;
+    }
+
+    .service-card p{
+       font-size: 16px;
     }

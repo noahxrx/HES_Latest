@@ -3,6 +3,7 @@ import './ServiceSectionStyles.css';
 import searchEngineImg from '../../assets/healthcare-search.png';
 import insuranceImg from '../../assets/insurance-tracking.png';
 import educationImg from '../../assets/educational-services.png';
+import comingSoonImg from '../../assets/coming-soon.png';
 
 const ServicesSection = () => {
   return (
@@ -28,6 +29,13 @@ const ServicesSection = () => {
           <img src={educationImg} alt="Educational Services" />
           <h3>Learn About How All Works</h3>
           <a href="/how-it-works" className="btn">
+            Explore
+          </a>
+        </div>
+        <div className="service-card">
+          <img src={comingSoonImg} alt="Educational Services" />
+          <h3>See What's Coming Soon</h3>
+          <a href="/coming-soon" className="btn">
             Explore
           </a>
         </div>

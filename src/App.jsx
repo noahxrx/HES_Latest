@@ -7,7 +7,8 @@ import MissionSection from './components/MissionSection/MissionSection';
 import TeamSection from './components/TeamSection/TeamSection';
 import FAQSection from './components/FAQSection/FAQSection';
 import SearchEnginePage from './components/SearchEnginePage/SearchEnginePage';
-import HowItWorks from './components/HowItWorks/HowItWorks'; // 追加
+import HowItWorks from './components/HowItWorks/HowItWorks'; 
+import WhenAndWhere from "./components/WhenAndWhere/WhenAndWhere";
 
 const HomePage = () => (
   <div>
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/healthcare-search" element={<SearchEnginePage />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/when-and-where" element={<WhenAndWhere />} />
       </Routes>
     </Router>
   );

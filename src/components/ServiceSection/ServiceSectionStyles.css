@@ -1,6 +1,6 @@
 .services-section {
   box-sizing: border-box;
-  height: 100vh;
+  height: auto;
   padding: 120px 20px 60px;
   text-align: center;
   background-color: rgba(42, 149, 191, 0.4);
@@ -14,20 +14,20 @@
 
 }
   
-  .services-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
-  }
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 横に2枚 */
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
   
   .service-card {
     border: 1px solid #ddd;
     background-color: #fff;
     padding: 20px;
     padding-top: 40px;
-    width: 350px;
-    height: 450px;
+
     border-radius: 18px;
     transition: transform 0.3s; box-shadow: 0.3s;
     color: black;

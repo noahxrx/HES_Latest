@@ -29,6 +29,10 @@ const Navbar = () => {
           <li>
             <a href="/#faq">FAQ</a>
           </li>
+          {/* Sign link */}
+          <li>
+            <a href="/#signup">Sign Up / Sign In</a>
+          </li>
         </ul>
       </nav>
     </header>
