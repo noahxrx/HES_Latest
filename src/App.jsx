@@ -9,6 +9,8 @@ import FAQSection from './components/FAQSection/FAQSection';
 import SearchEnginePage from './components/SearchEnginePage/SearchEnginePage';
 import HowItWorks from './components/HowItWorks/HowItWorks'; 
 import WhenAndWhere from "./components/WhenAndWhere/WhenAndWhere";
+import InsuranceGeneral from './components/InsuranceGeneralPage/InsuranceGeneralPage';
+import EarlhamInsurance from './components/EarlhamInsurancePage/EarlhamInsurancePage';
 
 const HomePage = () => (
   <div>
@@ -29,6 +31,8 @@ const App = () => {
         <Route path="/healthcare-search" element={<SearchEnginePage />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/when-and-where" element={<WhenAndWhere />} />
+        <Route path="/insurance-general" element={<InsuranceGeneral />} />
+        <Route path="/earlham-insurance" element={<EarlhamInsurance />} />
       </Routes>
     </Router>
   );

@@ -16,10 +16,10 @@ const HowItWorks = () => {
            <div className='side-menu-bar'>
             <h1>MENU</h1>
               <ul className='side-menu-list'>
-                <li className='side-menu-item'><a href="/coming-soon" className="btn"> WHEN to go WHERE </a></li>
+                <li className='side-menu-item'><a href="/when-and-where" className="btn"> WHEN to go </a></li>
                 <li className='side-menu-item'><a href="/coming-soon" className="btn">Insurance General</a></li>
                 <li className='side-menu-item'><a href="/coming-soon" className="btn"> Earlham Insurance</a></li>
-                <li className='side-menu-item'><a href="/coming-soon" className="btn">Tell Us What You Want To Learn!!</a></li>
+                <li className='side-menu-item side-menu-item-last'><a href="/coming-soon" className="btn">Tell Us What You Want To Learn!!</a></li>
               </ul>
           </div>
               <h2>Learn about how HES works.</h2>
@@ -37,7 +37,7 @@ const HowItWorks = () => {
                       <img src={stepTwoImg} alt="Step Two" />
                       <h3>Insurance General</h3>
                       <p>Confused by health insurance? You’re not alone. We’ll break it down simply so you can understand how it works, why it matters, and how it protects you.</p>
-                      <a href="/coming-soon" className="btn">
+                      <a href="/insurance-general" className="btn">
                           Read more
                       </a>
                   </div>
@@ -45,7 +45,7 @@ const HowItWorks = () => {
                       <img src={ecLogoImg} alt="Step Three" />
                       <h3>Earlham Insurance</h3>
                       <p>Wondering what’s actually covered by your Earlham insurance? We’ve got the answers—so you can make the most of your plan without the guesswork.</p>
-                      <a href="/coming-soon" className="btn">
+                      <a href="/earlham-insurance" className="btn">
                           Read more
                       </a>
                   </div>
