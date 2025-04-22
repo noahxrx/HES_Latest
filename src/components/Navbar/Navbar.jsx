@@ -31,7 +31,7 @@ const Navbar = () => {
           </li>
           {/* Sign link */}
           <li>
-            <a href="/#signup">Sign Up / Sign In</a>
+            <a href="/#signup">Log In</a>
           </li>
         </ul>
       </nav>

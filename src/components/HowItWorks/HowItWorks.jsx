@@ -1,6 +1,7 @@
 // src/components/HowItWorks/HowItWorks.jsx
 import React from 'react';
 import '../HowItWorks/HowItWorksStyle.css'; // スタイルは同じものを使う
+import '../Navbar/NavbarStyles.css';
 import stepOneImg from '../../assets/healthcare-search.png';
 import stepTwoImg from '../../assets/insurance-tracking.png';
 import ecLogoImg from '../../assets/earlhamCollege-logo.png';

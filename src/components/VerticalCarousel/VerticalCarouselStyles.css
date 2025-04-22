@@ -34,4 +34,13 @@
     to {
       transform: translateY(-1060px);
     }
-  }
+    }
+  
+    @media (max-width: 768px){
+      .vertical-carousel{
+        display: none;
+      }
+
+      
+    }
+  

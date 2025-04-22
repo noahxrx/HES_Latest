@@ -36,3 +36,28 @@
   height: 55px;  /* Adjust the height as needed */
   width: auto;
 }
+
+/* モバイル向け修正 */
+@media (max-width: 768px) {
+  .navbar nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8px 10px;
+    gap: 12px;
+    margin: 0;
+  }
+
+  .navbar nav ul li {
+    margin-right: 5px; /* 右マージン不要に */
+    margin-bottom: 6px;
+  }
+
+  .navbar nav ul li a {
+    font-size: 10px;
+  }
+
+  .navbar nav ul li img.logo-img {
+    height: 40px;
+    margin-bottom: 4px;
+  }
+}

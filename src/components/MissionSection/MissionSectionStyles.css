@@ -1,6 +1,6 @@
 .mission-section {
   box-sizing: border-box;
-  height: 100vh;
+  height: auto;
   padding: 120px 20px 60px; /* Keep existing padding */
   text-align: center;       /* Centers only the "Our Mission" heading */
   background-color: rgba(128, 128, 128, 0.25);
@@ -49,6 +49,7 @@
 
 /* Responsive: stack columns on narrow screens */
 @media (max-width: 768px) {
+
   .mission-container {
     flex-direction: column;
   }
@@ -57,5 +58,14 @@
     width: 100%;
     padding: 0;
     text-align: center;
+  }
+
+  .mission-text{
+    font-size: 30px;
+  }
+
+  .mission-image img{
+    width: 80%;
+    height: auto;
   }
 }

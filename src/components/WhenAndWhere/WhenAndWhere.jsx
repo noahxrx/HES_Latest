@@ -2,6 +2,7 @@
 
 import React from 'react';
 import '../WhenAndWhere/WhenAndWhereStyle.css'
+import '../Navbar/NavbarStyles.css';
 
 const WhenAndWhere = () => {
   return (

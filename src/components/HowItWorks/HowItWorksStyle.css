@@ -134,3 +134,65 @@
     .service-card p{
        font-size: 16px;
     }
+
+
+    @media (max-width: 768px) {
+      /* サイドメニューを非表示にする */
+      .side-menu-bar {
+        display: none;
+      }
+    
+      /* メインセクションを全幅にする */
+      .subcategory-section {
+        width: 100vw;
+        margin-left: 0;
+        padding: 80px 16px 40px;
+      }
+    
+      .subcategory-section h2 {
+        font-size: 32px;
+        margin-top: 30px;
+      }
+    
+      .page-abstract {
+        padding: 0 16px 30px;
+        font-size: 14px;
+        text-align: left;
+      }
+    
+      .page-abstract .btn {
+        font-size: 18px;
+      }
+    
+      .category-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+    
+      .service-card {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+      }
+    
+      .service-card img {
+        height: auto;
+        max-height: 200px;
+      }
+    
+      .service-card h3 {
+        font-size: 20px;
+        margin-top: 10px;
+      }
+    
+      .service-card p {
+        font-size: 14px;
+      }
+    
+      .service-card .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+      }
+    }
+    
