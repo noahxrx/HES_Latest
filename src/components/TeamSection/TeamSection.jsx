@@ -1,11 +1,11 @@
 import React from 'react';
 import './TeamSectionStyles.css';
-import member1 from '../../assets/member1.jpg';
-import member2 from '../../assets/member2.jpg';
-import member3 from '../../assets/member3.jpg';
-import member4 from '../../assets/member4.jpg';
-import member5 from '../../assets/member5.jpg';
-import member6 from '../../assets/member6.jpg';
+import member1 from '../../assets/noah.jpg';
+import member2 from '../../assets/arata.jpg';
+import member3 from '../../assets/shubhagini.jpg';
+import member4 from '../../assets/sora.jpg';
+import member5 from '../../assets/bach.png';
+import member6 from '../../assets/saki.jpg';
 
 const TeamSection = () => {
   return (
