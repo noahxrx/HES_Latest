@@ -68,7 +68,7 @@ const EarlhamInsurance = () => {
 
 
                 <h2>Key Plan Benefits at a Glance (With Examples)</h2>
-                <table>
+                <table className='plan-benefit-table'>
                     <thead>
                         <tr>
                             <th scope="col"></th>
@@ -138,7 +138,7 @@ const EarlhamInsurance = () => {
                 <div className='where-to-go'>
                     <h2>Where Should You Go?</h2>
                     <p>Knowing where to go saves time and money. <br></br>Here's a quick guide:</p>
-                    <table>
+                    <table className='where-to-go-table'>
                     <thead>
                         <tr>
                             <th scope="col"></th>

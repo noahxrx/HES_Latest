@@ -11,6 +11,7 @@ import HowItWorks from './components/HowItWorks/HowItWorks';
 import WhenAndWhere from "./components/WhenAndWhere/WhenAndWhere";
 import InsuranceGeneral from './components/InsuranceGeneralPage/InsuranceGeneralPage';
 import EarlhamInsurance from './components/EarlhamInsurancePage/EarlhamInsurancePage';
+import ComingSoon from './components/ComingSoon/ComingSoon';
 
 const HomePage = () => (
   <div>
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="/when-and-where" element={<WhenAndWhere />} />
         <Route path="/insurance-general" element={<InsuranceGeneral />} />
         <Route path="/earlham-insurance" element={<EarlhamInsurance />} />
+        <Route path="/coming-soon" element={<ComingSoon />} />
       </Routes>
     </Router>
   );

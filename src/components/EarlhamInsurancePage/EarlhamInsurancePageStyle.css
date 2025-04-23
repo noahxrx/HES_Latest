@@ -43,3 +43,14 @@ html{
 .referral{
     padding:40px 0px;
 }
+
+.plan-benefit-table, .where-to-go-table{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+ 
+.not-covered-service h2{
+    font-size: 22px;
+    font-weight: 700;
+}

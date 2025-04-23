@@ -36,3 +36,77 @@ html {
   .price{
      text-align: right;
   }
+
+
+  @media (max-width: 768px) {
+    /* サイドメニューを非表示に */
+    .side-menu-bar {
+      display: none;
+    }
+  
+    /* メイン部分を全幅に調整 */
+    .main-part {
+      width: 100%;
+      margin: 0;
+      padding: 100px 30px 40px !important;
+      box-sizing: border-box;
+
+    }
+  
+    /* h1 サイズダウン */
+    .main-part h1 {
+      font-size: 24px;
+      text-align: center;
+      margin-top: 72px;
+      padding-top: 20px;
+    }
+  
+    .section-number {
+      padding: 16px;
+    }
+  
+    /* 表を横スクロール可能にする */
+    table {
+      display: block;
+      overflow-x: auto;
+      width: 100%;
+      min-width: 400px;
+    }
+  
+    table th,
+    table td {
+      padding: 0.75em 0.5em;
+      font-size: 0.85em;
+      text-align: left;
+    }
+  
+    tbody th {
+      font-size: 1em;
+    }
+  
+    .txt {
+      font-size: 0.8em;
+    }
+  
+    /* 各リストも文字サイズを調整 */
+    ol, ul {
+      font-size: 15px;
+      padding-left: 1.2em;
+    }
+  
+    li {
+      margin-bottom: 0.6em;
+    }
+  
+    /* h3やh4のサイズ調整 */
+    h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    h4 {
+      font-size: 18px;
+      margin-top: 12px;
+    }
+  }
+  
